@@ -1,1 +1,22 @@
-/* */
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+
+header {
+  background-color: bisque;
+  text-align: center;
+}
+
+footer {
+  background-color: blueviolet;
+  text-align: center;
+}
+
+aside {
+  background-color: brown;
+}
+
+nav {
+  background-color: aqua;
+}
