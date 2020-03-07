@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Form" />
+    <title>Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Marcelo Benitez" />
+  </head>
+  <body>
+    <form id="contact-form" action="onevi.html" method="post">
+      <ul>
+        <li>
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" value="" required/>
+        </li>
+        <li>
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" value="" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}">/>
+        </li>
+        <li>
+          <label for="birthday">Birthday:</label>
+          <input type="text" name="birthday" id="birthday" value="" pattern="\d{1,2}/\d{1,2}/\d{4}"/>
+        </li>
+        <li><label for="sport">Favorite sport:</label>
+          <select name="sport" id="sport">
+            <option value="">Select sport</option>
+            <option value="nyork">Soccer</option>
+            <option value="vancouver">Basquetball</option>
+            <option value="atlantis">Tennis</option>
+            <option value="alpha">Swimming</option>
+            <option value="blackpool">Ping Pong</option>
+          </select></li>
+
+        <li>
+          <label for="comments">Small Bio:</label>
+          <textarea name="comments" id="comments" cols="25" rows="3"></textarea>
+        </li>
+        <li>
+          <input type="submit" value="submit" />
+          <input type="reset" value="reset" />
+        </li>
+      </ul>
+    </form>
+  </body>
+</html>
