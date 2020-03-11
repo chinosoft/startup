@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background-color: white;
+  /*padding: 100px;*/
+}
+
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 0 0 0 0;
+}
+
+.itemt {
+  padding: 1px;
+  width: 350px;
+  height: 150px;
+  }
+.item {
+padding: 1px;
+width: 350px;
+height: 400px;
+}
+
+.ttext {
+  font-size: 30px;
+  position: absolute;
+  font-weight: bold;
+  color: aliceblue;
+  visibility: hidden;
+}
+
+.item:hover .ttext {
+  visibility: visible;
+  background-color: rgba(31, 31, 31, 0.2);
+  
+}
