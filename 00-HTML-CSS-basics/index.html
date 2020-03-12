@@ -3,22 +3,23 @@
   <head>
     <meta charset="utf-8" />
     <meta name="description" content="normalize css" />
-    <title>normalize.css</title>
+    <title>Specificity</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Marcelo Benitez" />
-    <!--<link href="normalize.css" rel="stylesheet" />-->
-    <link href="style.css" rel="stylesheet" />
+    <link href="normalize.css" rel="stylesheet" />
+    <link href="style2.css" rel="stylesheet" />
   </head>
   <body>
     <header class="header">Header</header>
-    <nav class="nav">Nav</nav>
-    <section class="section">
-      Section
-      <header class="section-header">Header</header>
-      <article class="section-article">Article</article>
-      <footer class="section-footer">Footer</footer>
-    </section>
-    <aside class="aside">Aside</aside>
+    <div id="wrapper">
+      <nav class="navigation">Nav</nav>
+      <section class="content">
+        <header class="section-header">Header</header>
+        <article class="section-article">Article</article>
+        <footer class="section-footer">Footer</footer>
+      </section>
+      <aside class="sidebar">Aside</aside>
+    </div>
     <footer class="footer">Footer</footer>
   </body>
 </html>

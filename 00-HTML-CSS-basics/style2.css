@@ -1,0 +1,44 @@
+.header {
+  background-color: bisque;
+  text-align: center;
+  font-size: 46px;
+}
+div#wrapper{
+  display: block;
+  width:100%;
+  background:#fff;
+  color:#333;
+  }
+.content {
+  margin: 0 25% 0 25%; /* top, right, bottom, left*/
+  font-size: 14px;
+}
+.navigation {
+  float:left;
+  width:25%;
+  /*margin-left:-100%;*/
+  font-size: 12px;
+}
+.sidebar {
+  position: relative;
+  top: -50px;
+  left: 75%;
+  font-size: 10px;
+  
+}
+.footer {
+  background-color: blueviolet;
+  text-align: center;
+  font-size: 10px;
+}
+[class$="r"] {
+  background-color:magenta;
+}
+[class*="a"]:not([class$="r"]) {
+  background-color:blue;
+}
+.oh-no-inline-styles{
+  color: green !important;
+}
+
+
