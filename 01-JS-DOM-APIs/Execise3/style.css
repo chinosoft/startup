@@ -1,0 +1,8 @@
+body {
+  text-align: center;
+}
+.messages {
+  text-align: center;
+  background-color: red;
+  font-size: 25px;
+}
