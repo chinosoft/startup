@@ -1,0 +1,14 @@
+/*{
+  flex: content;
+  align-content: space-around;
+  align-items: center;
+}*/
+h1 {
+  text-align: center;
+}
+svg {
+  align-items: center;
+}
+#rect{
+  fill:red;stroke:black;stroke-width:5;opacity:0.5; 
+}
