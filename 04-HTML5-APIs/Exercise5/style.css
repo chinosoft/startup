@@ -1,0 +1,8 @@
+*{
+  flex: content;
+  align-content: space-around;
+  align-items: center;
+}
+div{
+  text-align: center;
+}
